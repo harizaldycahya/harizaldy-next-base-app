@@ -6,7 +6,13 @@ const config: Config = {
   ],
   darkMode: 'class', // <-- add this
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "var(--color-primary)",
+        bg: "var(--color-bg)",
+        text: "var(--color-text)",
+      },
+    },
   },
   plugins: [require('daisyui')],
 }

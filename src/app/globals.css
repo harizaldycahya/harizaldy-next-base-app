@@ -1,3 +1,59 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* globals.css */
+
+/* Default theme (Tailwind-style) */
+:root {
+  --color-bg: #ffffff;
+  --color-text: #1f2937;
+
+  --color-primary: #2563eb;  /* Blue */
+  --color-secondary: #9333ea; /* Purple */
+  --color-success: #16a34a;  /* Green */
+  --color-danger: #dc2626;   /* Red */
+  --color-warning: #f59e0b;  /* Amber */
+  --color-info: #0ea5e9;     /* Sky Blue */
+}
+
+/* Dark Mode */
+.theme-dark {
+  --color-bg: #111827;
+  --color-text: #e5e7eb;
+}
+
+/* YouTube-style theme */
+.theme-youtube {
+  --color-bg: #ffffff;
+  --color-text: #0f0f0f;
+
+  --color-primary: #ff0000;  /* YouTube red */
+  --color-secondary: #282828; /* Dark gray */
+  --color-success: #22c55e;  /* Green */
+  --color-danger: #dc2626;   /* Red */
+  --color-warning: #facc15;  /* Yellow */
+  --color-info: #3b82f6;     /* Blue */
+}
+
+/* Google-style theme */
+.theme-google {
+  --color-bg: #ffffff;
+  --color-text: #202124;
+
+  --color-primary: #4285f4; /* Google Blue */
+  --color-secondary: #ea4335; /* Google Red */
+  --color-success: #34a853; /* Google Green */
+  --color-warning: #fbbc05; /* Google Yellow */
+  --color-danger: #d93025; /* Error Red */
+  --color-info: #1a73e8;   /* Info Blue */
+}
+
+/* Bootstrap-style theme */
+.theme-bootstrap {
+  --color-bg: #ffffff;
+  --color-text: #212529;
+
+  --color-primary: #0d6efd;
+  --color-secondary: #6c757d;
+  --color-success: #198754;
+  --color-danger: #dc3545;
+  --color-warning: #ffc107;
+  --color-info: #0dcaf0;
+}
