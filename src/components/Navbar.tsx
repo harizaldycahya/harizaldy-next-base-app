@@ -2,8 +2,8 @@ import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
   return (
-    <nav className="bg-bg text-text shadow-md sticky top-0 z-50 transition-colors">
-      <div className="max-w-6xl mx-auto px-4 flex justify-between h-16 items-center">
+    <nav className=" px-4 py-2 bg-bg text-text shadow-md sticky top-0 z-50 transition-colors">
+      <div className="mx-auto px-4 flex justify-between h-16 items-center">
         <a href="/" className="text-2xl font-bold text-primary">
           MyCRUD
         </a>

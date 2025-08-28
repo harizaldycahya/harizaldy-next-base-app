@@ -8,12 +8,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "var(--color-primary)",
         bg: "var(--color-bg)",
         text: "var(--color-text)",
+        primary: "var(--color-primary)",
+        secondary: "var(--color-secondary)",
+        success: "var(--color-success)",
+        danger: "var(--color-danger)",
+        warning: "var(--color-warning)",
+        info: "var(--color-info)",
       },
     },
-  },
-  plugins: [require('daisyui')],
+  }, // <-- close theme here
+  plugins: [require('daisyui')], // <-- plugins is outside theme
 }
+
 export default config

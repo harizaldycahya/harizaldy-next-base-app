@@ -1,59 +1,123 @@
 /* globals.css */
-
-/* Default theme (Tailwind-style) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Default Light */
 :root {
   --color-bg: #ffffff;
   --color-text: #1f2937;
-
-  --color-primary: #2563eb;  /* Blue */
-  --color-secondary: #9333ea; /* Purple */
-  --color-success: #16a34a;  /* Green */
-  --color-danger: #dc2626;   /* Red */
-  --color-warning: #f59e0b;  /* Amber */
-  --color-info: #0ea5e9;     /* Sky Blue */
+  --color-primary: #2563eb;
+  --color-secondary: #9333ea;
+  --color-success: #16a34a;
+  --color-danger: #dc2626;
+  --color-warning: #f59e0b;
+  --color-info: #0ea5e9;
 }
 
-/* Dark Mode */
+/* Default Dark */
 .theme-dark {
   --color-bg: #111827;
   --color-text: #e5e7eb;
+  --color-primary: #3b82f6;
+  --color-secondary: #a855f7;
+  --color-success: #22c55e;
+  --color-danger: #ef4444;
+  --color-warning: #fbbf24;
+  --color-info: #38bdf8;
 }
 
-/* YouTube-style theme */
-.theme-youtube {
+/* YouTube Light */
+.theme-youtube-light {
   --color-bg: #ffffff;
   --color-text: #0f0f0f;
-
-  --color-primary: #ff0000;  /* YouTube red */
-  --color-secondary: #282828; /* Dark gray */
-  --color-success: #22c55e;  /* Green */
-  --color-danger: #dc2626;   /* Red */
-  --color-warning: #facc15;  /* Yellow */
-  --color-info: #3b82f6;     /* Blue */
+  --color-primary: #ff0000;
+  --color-secondary: #282828;
+  --color-success: #22c55e;
+  --color-danger: #dc2626;
+  --color-warning: #facc15;
+  --color-info: #3b82f6;
 }
 
-/* Google-style theme */
-.theme-google {
+/* YouTube Dark */
+.theme-youtube-dark {
+  --color-bg: #0f0f0f;
+  --color-text: #ffffff;
+  --color-primary: #ff0000;
+  --color-secondary: #909090;
+  --color-success: #22c55e;
+  --color-danger: #ef4444;
+  --color-warning: #facc15;
+  --color-info: #3b82f6;
+}
+
+/* Google Light */
+.theme-google-light {
   --color-bg: #ffffff;
   --color-text: #202124;
-
-  --color-primary: #4285f4; /* Google Blue */
-  --color-secondary: #ea4335; /* Google Red */
-  --color-success: #34a853; /* Google Green */
-  --color-warning: #fbbc05; /* Google Yellow */
-  --color-danger: #d93025; /* Error Red */
-  --color-info: #1a73e8;   /* Info Blue */
+  --color-primary: #4285f4;
+  --color-secondary: #ea4335;
+  --color-success: #34a853;
+  --color-warning: #fbbc05;
+  --color-danger: #d93025;
+  --color-info: #1a73e8;
 }
 
-/* Bootstrap-style theme */
-.theme-bootstrap {
+/* Google Dark */
+.theme-google-dark {
+  --color-bg: #202124;
+  --color-text: #e8eaed;
+  --color-primary: #8ab4f8;
+  --color-secondary: #f28b82;
+  --color-success: #81c995;
+  --color-warning: #fdd663;
+  --color-danger: #f28b82;
+  --color-info: #8ab4f8;
+}
+
+/* Bootstrap Light */
+.theme-bootstrap-light {
   --color-bg: #ffffff;
   --color-text: #212529;
-
   --color-primary: #0d6efd;
   --color-secondary: #6c757d;
   --color-success: #198754;
   --color-danger: #dc3545;
   --color-warning: #ffc107;
   --color-info: #0dcaf0;
+}
+
+/* Bootstrap Dark */
+.theme-bootstrap-dark {
+  --color-bg: #212529;
+  --color-text: #f8f9fa;
+  --color-primary: #0d6efd;
+  --color-secondary: #adb5bd;
+  --color-success: #198754;
+  --color-danger: #dc3545;
+  --color-warning: #ffc107;
+  --color-info: #0dcaf0;
+}
+
+/* Eco Light (matches screenshot) */
+.theme-eco-light {
+  --color-bg: #f9fafb;        /* soft gray background */
+  --color-text: #1a1f16;      /* dark, almost black text */
+  --color-primary: #004225;   /* deep green */
+  --color-secondary: #14532d; /* secondary green */
+  --color-success: #16a34a;   /* green accents */
+  --color-danger: #dc2626;    /* error red */
+  --color-warning: #f59e0b;   /* amber */
+  --color-info: #0ea5e9;      /* cyan/blue */
+}
+
+/* Eco Dark */
+.theme-eco-dark {
+  --color-bg: #0b1210;        /* deep near-black green */
+  --color-text: #e5e7eb;      /* light gray text */
+  --color-primary: #22c55e;   /* vibrant green */
+  --color-secondary: #16a34a; /* softer green */
+  --color-success: #34d399;   /* mint green */
+  --color-danger: #f87171;    /* soft red */
+  --color-warning: #fbbf24;   /* warm amber */
+  --color-info: #38bdf8;      /* bright blue */
 }
